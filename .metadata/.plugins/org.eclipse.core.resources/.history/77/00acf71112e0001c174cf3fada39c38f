@@ -1,0 +1,27 @@
+class Student
+{
+	int id;
+	String name,course,location;
+	public Student(int id, String name, String course, String location) {
+		this.id = id;
+		this.name = name;
+		this.course = course;
+		this.location = location;
+	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "hi abi";
+	}
+}
+public class StudentInfo {
+
+	public static void main(String[] args) {
+		Student s1=new Student(1001,"krishna sree","jav","tiruvallur");
+		Student s2=new Student(1002,"sofiya","python","tiruvallur");
+		System.out.println("student-1 detail is"+s1);
+		System.out.println("student-2 detail is"+s2);
+	}
+
+}

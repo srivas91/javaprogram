@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\Sofiya\.metadata\.plugins\org.eclipse.jdt.core
+107573622.index
+1736090201.index
+1865797976.index

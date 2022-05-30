@@ -1,0 +1,17 @@
+
+class MyClass
+{
+	int a=10;
+	private int b=20;
+}
+public class AccessDemo {
+
+	public static void main(String[] args) {
+	  MyClass obj=new MyClass();
+	  System.out.println("a value is"+obj.a);
+	  System.out.println("b value is"+obj.b);
+	  
+
+	}
+
+}
